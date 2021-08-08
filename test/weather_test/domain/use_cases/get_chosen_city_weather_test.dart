@@ -4,7 +4,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:weather_app_clean_architecture/src/data/model/weather_data_model.dart';
 import 'package:weather_app_clean_architecture/src/domain/entities/weather_data.dart';
 import 'package:weather_app_clean_architecture/src/domain/repositories/weather_repository_interface.dart';
-import 'package:weather_app_clean_architecture/src/domain/use_cases/get_concrete_city_weather.dart';
+import 'package:weather_app_clean_architecture/src/domain/use_cases/get_chosen_city_weather.dart';
 
 class MockWeatherRepository extends Mock implements WeatherRepositoryInterface {
 }
