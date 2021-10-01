@@ -13,7 +13,7 @@ class OpenWeatherApiDataSource implements RemoteDataSourceInterface {
   Future<WeatherDataModel> getChosenCityWeather(String cityName) async {
     final response = await http.Client().get(
       Uri.parse(
-          'https://api.openweathermap.org/data/2.5/weather?appid=92dc32921afbad0e54d33284dca093a2&q=$cityName&units=metric'),
+          'https://api.openweathermap.org/data/2.5/weather?appid=92dc32921afbad0e54d33284dca0932&q=$cityName&units=metric'),
       headers: {
         'Content-Type': 'application/json',
       },
